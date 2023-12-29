@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku</string>
+    <string name="sudoku_rules">
+        Objective:\n
+        The objective of Sudoku is to fill a 9x9 grid with numbers so that each column, each row, and each of the nine 3x3 subgrids (also known as regions or blocks) contain all of the digits from 1 to 9. The puzzle starts with some cells pre-filled with numbers, and the player must fill in the remaining cells following the rules.\n
+        \n
+        Rules:\n
+        Grid:\n
+        The Sudoku grid consists of a 9x9 square divided into nine 3x3 subgrids.\n
+        Each row, column, and subgrid must contain the numbers 1 through 9, with no repetition.\n
+        Numbers:\n
+        Fill in the grid with numbers from 1 to 9.\n
+        Each row must contain all the numbers from 1 to 9 with no repetition.\n
+        Each column must contain all the numbers from 1 to 9 with no repetition.\n
+        Each 3x3 subgrid must contain all the numbers from 1 to 9 with no repetition.\n
+        Starting Numbers:\n
+        At the beginning of the game, some cells in the grid are pre-filled with numbers.\n
+        These starting numbers serve as clues and cannot be changed.\n
+        Empty Cells:\n
+        The remaining cells that are not pre-filled must be filled by the player.\n
+        Each empty cell must be filled with a number from 1 to 9 following the rules.\n
+        Logic and Deduction:\n
+        Sudoku is a game of logic and deduction. There should be only one solution for a well-formed Sudoku puzzle.\n
+        Players use deductive reasoning to determine the correct numbers for each cell based on the given clues and the numbers already placed on the board.\n
+        Completion:\n
+        The puzzle is solved when all empty cells are filled, and the numbers meet the rules for rows, columns, and subgrids.\n
+        \n
+        Tips:\n
+        Start with the easiest numbers and work your way to the more challenging ones.\n
+        Use the process of elimination to figure out which numbers can go in a particular cell.\n
+        Pay attention to the interactions between rows, columns, and subgrids to make logical decisions.\n
+        Enjoy the challenge of solving Sudoku puzzles!
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
